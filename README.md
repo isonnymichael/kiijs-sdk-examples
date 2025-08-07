@@ -11,8 +11,10 @@ Each example is a self-contained React app built with Vite and TypeScript, and i
 ```sh
 /
 ├── examples/               # All example apps live here
-│   ├── example-1/          # Example 1 - Wallet connect & network check
-│   └── example-2/          # Example 2 - Read balance & contract interaction
+│   ├── evm/example-1/      # Example 1 - Wallet connect & network check
+│   ├── proto/example-1/    # Example 2 - Read balance & contract interaction
+│   ├── rwa/example-1/      # Example 3 - Read wallet balance & interact with contract
+│   └── utils/example-1/    # Example 4 - Utility functions & helpers
 ├── .husky/                 # Git hooks (linting, formatting, commit msg)
 ├── .prettierignore         # Prettier ignore file
 ├── .gitignore              # Git ignore file
@@ -28,10 +30,12 @@ Each example is a self-contained React app built with Vite and TypeScript, and i
 
 ## 📦 Example Apps
 
-| Name      | Path                                       | Description                                  |
-| --------- | ------------------------------------------ | -------------------------------------------- |
-| Example 1 | [`examples/example-1`](examples/example-1) | Basic wallet connect & network check         |
-| Example 2 | [`examples/example-2`](examples/example-2) | Read wallet balance & interact with contract |
+| Name  | Path                                                   | Description                                  |
+| ----- | ------------------------------------------------------ | -------------------------------------------- |
+| EVM   | [`examples/evm/example-1`](examples/evm/example-1)     | Basic wallet connect & network check         |
+| Proto | [`examples/proto/example-1`](examples/proto/example-1) | Read wallet balance & interact with contract |
+| RWA   | [`examples/rwa/example-1`](examples/rwa/example-1)     | Read wallet balance & interact with contract |
+| Utils | [`examples/utils/example-1`](examples/utils/example-1) | Utility functions & helpers                  |
 
 ---
 
